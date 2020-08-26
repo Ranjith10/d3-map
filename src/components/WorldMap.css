@@ -1,0 +1,14 @@
+#world-map {
+    display: flex;
+    justify-content: center;
+    background-color: #afcde9;
+}
+.country {
+    fill: #67d219;
+    stroke: #000000;
+    stroke-width: 0.4;
+    cursor: pointer;
+}
+.selected {
+    fill: #e9e41d;
+}

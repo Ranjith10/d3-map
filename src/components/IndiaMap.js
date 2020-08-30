@@ -3,9 +3,9 @@ import * as d3 from 'd3'
 import * as topojson from 'topojson-client'
 
 import worldMapData from '../data/worldMap.json'
-import './WorldMap.css'
+import './IndiaMap.css'
 
-const WorldMap = () => {
+const IndiaMap = () => {
     const getWorldMap = () => {
         d3.select('#world-map-svg').remove()
 
@@ -63,4 +63,4 @@ const WorldMap = () => {
     return <div id = 'world-map'></div>
 }
 
-export default WorldMap
+export default IndiaMap
